@@ -5,7 +5,7 @@ let romanToInt = function(s) {
     // Ограничения
     if(s.length < 1) return false;
     if(s.length > 15) return false;
-    // Объявление констант
+    // Объявление константы
     const nums = {
         'I': 1,
         'V': 5,
